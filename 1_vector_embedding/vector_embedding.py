@@ -41,13 +41,13 @@ def norm(a):
 def cosine_similarity(a, b):
     return dot(a,b)/(norm(a) * norm(b))
 
-# sentence_1 = "Happy birthday"
-# sentence_2 = "I wish you a wonderful anniversary"
+sentence_1 = "A golden retriever playing in the park"
+sentence_2 = "A dog running through grass"
 
-# model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
-# a_v2 = model.encode(sentence_1)
-# b_v2 = model.encode(sentence_2)
+model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+a = model.encode(sentence_1)
+b = model.encode(sentence_2)
 
 
 
-# print(cosine_similarity(a, b))
+print(cosine_similarity(a, b))
