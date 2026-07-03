@@ -35,7 +35,8 @@ model.predict(X)
 
 1. Initialization: Select random centroids (among the datasets), the number of centroid is determined by the number of cluster defined by developer.
 
-2. Assignment: Calculate the distance (normally Euclidean distance) of all the point to the centroids, then assign the point to its closest centroid. Formular: $ inertia = sum_{i=1}^n sum_{j=1}^n \| x - \muy \| $
+2. Assignment: Calculate the distance (normally Euclidean distance) of all the point to the centroids, then assign the point to its closest centroid. Formular: $inertia = \sum_{i=1}^n \sum_{j=1}^n \| x_i - \mu_j \|^2$
+
 
 3. Update: After that, calculating the "inertia" of the cluster by summing up all the distance of each point in the cluster to the centroid. 
 
