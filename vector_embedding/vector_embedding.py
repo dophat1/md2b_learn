@@ -1,5 +1,6 @@
 import numpy as np 
 import math
+from sentence_transformers import SentenceTransformer 
 
 dictionary = {}
 
@@ -40,9 +41,13 @@ def norm(a):
 def cosine_similarity(a, b):
     return dot(a,b)/(norm(a) * norm(b))
 
+# sentence_1 = "Happy birthday"
+# sentence_2 = "I wish you a wonderful anniversary"
 
-print(dict_build("Happy birthday"))
-print(dict_build("I wish you a wonderful anniversary"))
-a = vector_embedding("Happy birthday")
-b = vector_embedding("I wish you a wonderful anniversary")
-print(cosine_similarity(a, b))
+# model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+# a_v2 = model.encode(sentence_1)
+# b_v2 = model.encode(sentence_2)
+
+
+
+# print(cosine_similarity(a, b))
