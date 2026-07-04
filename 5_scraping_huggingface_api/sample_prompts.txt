@@ -1,0 +1,4 @@
+Explain k-means clustering in 2 sentences.
+What is better: linear Regression of k-NN Regression?
+Write a short poem about coffee.
+Explain the difference on how BeautifulSoup and Selenium conduct web scraping.
