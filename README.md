@@ -1,6 +1,6 @@
 # Overview 
 
-<img width="800" height="450" alt="image" src="https://i.programmerhumor.io/2023/01/programmerhumor-io-python-memes-programming-memes-3ad40a8c986ebf2.jpg" />
+<img alt="image" src="https://i.programmerhumor.io/2023/01/programmerhumor-io-python-memes-programming-memes-3ad40a8c986ebf2.jpg" />
 
 
 My self taught notebook on the subject Data Analytics
